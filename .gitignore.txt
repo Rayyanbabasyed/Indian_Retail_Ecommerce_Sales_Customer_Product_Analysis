@@ -1,0 +1,85 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ==============================
+# Google Colab
+# ==============================
+
+.colab/
+drive/
+content/
+
+# ==============================
+# Raw Data
+# ==============================
+
+data/raw/
+*.csv
+*.xlsx
+*.xls
+
+# Keep processed cleaned dataset if you want it on GitHub
+!data/processed/
+!data/processed/cleaned_sales_data.csv
+
+# ==============================
+# Sensitive Files
+# ==============================
+
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ==============================
+# Power BI Temporary Files
+# ==============================
+
+*.pbi.temp
+*.pbit.temp
+*.pbix.temp
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.tmp
+*.temp
+*.log
+
+# ==============================
+# Project Temporary Files
+# ==============================
+
+~$*
+*.bak
